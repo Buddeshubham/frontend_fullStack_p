@@ -1,0 +1,32 @@
+2025-05-28 13:31:35.156 [info] 
+
+
+
+
+2025-05-28 13:31:35.156 [info] Extension host agent started.
+2025-05-28 13:31:35.281 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-05-28 13:31:35.394 [info] [127.0.0.1][4b21b330][ManagementConnection] New connection established.
+2025-05-28 13:31:35.404 [info] ComputeTargetPlatform: linux-x64
+2025-05-28 13:31:35.536 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-05-28 13:31:36.101 [info] [127.0.0.1][24322c21][ExtensionHostConnection] New connection established.
+2025-05-28 13:31:36.228 [info] [127.0.0.1][24322c21][ExtensionHostConnection] <931> Launched Extension Host Process.
+2025-05-28 13:31:38.066 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-05-28 13:31:41.427 [error] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-05-28 13:31:43.007 [info] ComputeTargetPlatform: linux-x64
+2025-05-28 13:31:45.344 [info] Getting Manifest... github.copilot-chat
+2025-05-28 13:31:46.574 [info] Installing extension: github.copilot-chat {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"}}
+2025-05-28 13:31:46.580 [info] Installing the extension without checking dependencies and pack github.copilot-chat
+2025-05-28 13:31:47.081 [error] #5: https://GitHub.gallery.vsassets.io/_apis/public/gallery/publisher/GitHub/extension/copilot-chat/0.27.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&install=true - error GET AggregateError [ETIMEDOUT]: 
+2025-05-28 13:31:47.182 [info] Getting Manifest... github.copilot
+2025-05-28 13:31:47.427 [info] Installing extension: github.copilot {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"}}
+2025-05-28 13:31:47.428 [info] Installing the extension without checking dependencies and pack github.copilot
+2025-05-28 13:31:49.195 [error] #6: https://GitHub.gallery.vsassets.io/_apis/public/gallery/publisher/GitHub/extension/copilot-chat/0.27.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true - error GET AggregateError [ETIMEDOUT]: 
+2025-05-28 13:31:49.197 [warning] Failed downloading vsix. AggregateError [ETIMEDOUT]: . Retry again... github.copilot-chat
+2025-05-28 13:31:49.481 [error] #9: https://GitHub.gallery.vsassets.io/_apis/public/gallery/publisher/GitHub/extension/copilot-chat/0.27.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&install=true - error GET AggregateError [ETIMEDOUT]: 
+2025-05-28 13:31:49.764 [error] #10: https://GitHub.gallery.vsassets.io/_apis/public/gallery/publisher/GitHub/extension/copilot-chat/0.27.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true - error GET AggregateError [ETIMEDOUT]: 
+2025-05-28 13:31:49.768 [warning] Failed downloading vsix. AggregateError [ETIMEDOUT]: . Retry again... github.copilot-chat
+2025-05-28 13:31:51.463 [error] #11: https://GitHub.gallery.vsassets.io/_apis/public/gallery/publisher/GitHub/extension/copilot-chat/0.27.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&install=true - error GET AggregateError [ETIMEDOUT]: 
+2025-05-28 13:31:52.819 [error] #13: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-05-28 13:31:56.203 [error] #14: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-05-28 13:31:58.401 [info] [127.0.0.1][4b21b330][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-28 13:31:58.992 [info] [127.0.0.1][24322c21][ExtensionHostConnection] <931> Extension Host Process exited with code: 0, signal: null.

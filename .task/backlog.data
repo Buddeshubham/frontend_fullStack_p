@@ -1,0 +1,3 @@
+{"description":"Buy groceries","entry":"20250612T142834Z","modified":"20250612T142834Z","status":"pending","uuid":"41d5aeaa-135d-4ea0-b33e-050849c457a6"}
+{"description":"Build admin dashboard","entry":"20250612T143026Z","modified":"20250612T143026Z","project":"work","status":"pending","uuid":"66d2e0da-cb6d-41ea-8e6b-5d3c98f129d3","tags":["frontend"]}
+{"description":"Finish project report","due":"20250613T000000Z","entry":"20250612T143743Z","modified":"20250612T143743Z","priority":"H","status":"pending","uuid":"2edb5958-435a-4fd7-a3bc-95ebd6bc7bf5"}

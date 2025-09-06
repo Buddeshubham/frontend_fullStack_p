@@ -1,0 +1,16 @@
+2025-05-28 13:36:55.465 [info] 
+
+
+
+
+2025-05-28 13:36:55.583 [info] Extension host agent started.
+2025-05-28 13:36:56.972 [info] [127.0.0.1][10f11f2e][ManagementConnection] New connection established.
+2025-05-28 13:36:57.164 [info] [127.0.0.1][84b7bb1c][ExtensionHostConnection] New connection established.
+2025-05-28 13:36:57.547 [info] ComputeTargetPlatform: linux-x64
+2025-05-28 13:36:57.885 [info] [127.0.0.1][84b7bb1c][ExtensionHostConnection] <1258> Launched Extension Host Process.
+2025-05-28 13:36:58.385 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-05-28 13:36:58.486 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-05-28 13:37:02.855 [error] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-05-28 13:37:04.177 [info] ComputeTargetPlatform: linux-x64
+2025-05-28 13:37:05.402 [info] [127.0.0.1][10f11f2e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-28 13:37:05.597 [info] [127.0.0.1][84b7bb1c][ExtensionHostConnection] <1258> Extension Host Process exited with code: 0, signal: null.
