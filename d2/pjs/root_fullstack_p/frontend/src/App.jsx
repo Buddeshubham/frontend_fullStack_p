@@ -5,30 +5,39 @@ function App() {
   const [name, setName] = useState("");
   const [reply, setReply] = useState("");
 
+  // ✅ use environment variable
+  const API_BASE = import.meta.env.VITE_API_BASE_URL;
+
   // GET example
   useEffect(() => {
-    fetch("http://localhost:5000/api/hello")
+    fetch(`${API_BASE}/api/hello`)
       .then((res) => res.json())
-      .then((data) => setMessage(data.message));
-  }, []);
+      .then((data) => setMessage(data.message))
+      .catch((err) => console.error("Error fetching:", err));
+  }, [API_BASE]);
 
   // POST example
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/api/message", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name }),
-    });
+    try {
+      const res = await fetch(`${API_BASE}/api/message`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name }),
+      });
 
-    const data = await res.json();
-    setReply(data.reply);
+      const data = await res.json();
+      setReply(data.reply);
+    } catch (error) {
+      console.error("POST error:", error);
+    }
   };
 
   return (
-    <div>
+    <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
       <h1>Vite + React + Express</h1>
+
       <p>GET response: {message}</p>
 
       <form onSubmit={handleSubmit}>
